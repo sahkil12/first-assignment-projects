@@ -1,4 +1,3 @@
-
 /* all the shared style  */
 
 .azeret-mono-font {
@@ -6,20 +5,37 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
-  
+}
+
 /* shared text style */
-.subtitle{
+.subtitle {
     font-size: 16px;
-    color:rgba(13, 19, 33, 0.829);
+    /* color:rgba(13, 19, 33, 0.829); */
     line-height: 26px;
-    
+    color: rgba(13, 19, 33, 0.7);
+    opacity: 70%;
+
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+}
+
+.all-title {
+    font-size: 32px;
+    font-weight: bolder;
+
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
 }
 
 
 /* project header style  */
 
-header{
+header {
     margin-top: 131px;
 }
 
@@ -28,28 +44,29 @@ header{
     height: 655px;
     background-image: url("../assets/Hero-bg.png");
     margin: 0 auto;
-   text-align: center;
-   
-   
+    text-align: center;
+
+
 }
 
-.icon-design{
+.icon-design {
     height: 240px;
     padding-top: 26px;
     padding-bottom: 32px;
 }
 
-.head-section{
+.head-section {
     padding-left: 221px;
     padding-right: 221px;
     padding-bottom: 45px;
 }
 
-.head-title{
+.head-title {
     font-size: 48px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
-.btn{
+
+.btn {
     background-color: black;
     color: white;
     border: none;
@@ -58,16 +75,16 @@ header{
     width: 264px;
     border-radius: 8px;
     margin-top: 32px;
-    margin-bottom: 45px; 
+    margin-bottom: 45px;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
 
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    /* font-weight: <weight>;
     font-style: normal;
-    
+     */
 
 
 
@@ -75,6 +92,96 @@ header{
 
 .btn-style {
     margin-top: 42px;
-    margin-bottom: 45px; 
-  
+    margin-bottom: 45px;
+
+}
+
+/* layer part style section  */
+
+
+/* shared text style  */
+
+.layer-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+
+}
+
+
+.layer-part {
+    background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 74px; */
+    padding-bottom: 90px;
+}
+
+/* 
+.first-layer-item{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   height: 336px;
+   width: 945px;
+   background-color: rgba(250, 235, 215, 0.307);
+}
+
+.first-items{
+    text-align: start;
+    padding-right: 105px;
+} */
+
+
+.first-layer-item,
+.second-layer-item,
+.third-layer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 945px;
+    height: 336px;
+    margin: 0 auto;
+    text-align: start;
+    background-color: rgba(250, 235, 215, 0.216);
+    margin-bottom: 32px;
+    border-radius: 16px;
+    padding: 38px;
+    
+}
+
+.first-layer,
+.second-layer,
+.third-layer {
+    width: 477px;
+    height: 219px;
+    padding-right: 99px;
+}
+
+.learn-more {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(13, 19, 33, 0.7);
+    padding: 12px 20px;
+    background-color: white;
+    opacity: 70%;
+
+    border-color: 1px solid black;
+}
+
+.first-layer-item {
+    margin-top: 48px;
+}
+
+.content {
+    width: 862px;
+    height: 113px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 48px;
 }
