@@ -27,8 +27,8 @@
 
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    /* font-weight: <weight>;
+    font-style: normal; */
 
 }
 
@@ -152,7 +152,7 @@ header {
     margin-bottom: 32px;
     border-radius: 16px;
     padding: 38px;
-    
+
 }
 
 .first-layer,
@@ -184,4 +184,31 @@ header {
     margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 48px;
+}
+
+
+/* inspiration part style */
+
+.inspiration-part {
+    width: 1140px;
+    height: 740px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 151px;
+}
+.video{
+   
+    /* padding: 32px; */
+    border-radius: 16px;
+   
+    margin: 32px;
+}
+.inspiration-video{
+    height: 615px;
+    width: 1140px;
+    background-color:rgba(255, 255, 255, 0.599);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 16px;
+    margin-top: 48px;
+   
 }
