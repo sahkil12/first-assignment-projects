@@ -149,6 +149,14 @@ header {
     padding-right: 99px;
 }
 
+.learn-more:hover{
+
+background-color: rgba(128, 128, 128, 0.763); ;
+box-shadow: 1px 2px 6px rgba(38, 0, 255, 0.543);
+color: rgb(0, 0, 0);
+
+}
+
 .learn-more {
     font-size: 20px;
     font-weight: 500;
@@ -157,13 +165,7 @@ header {
     background-color: white;
     opacity: 70%;
 
-    border-color: 1px solid black;
-}
-
-.learn-more:hover{
-    background-color: rgba(128, 128, 128, 0.763);
-    color: rgb(0, 0, 0);
-    box-shadow: 1px 2px 6px rgba(38, 0, 255, 0.593);
+    border-color: 1px solid black;  
 }
 
 .first-layer-item {
@@ -175,8 +177,7 @@ header {
     height: 113px;
     margin: 0 auto;
     padding-top: 80px;
-    padding-bottom: 48px;
-    
+    padding-bottom: 48px; 
 }
 
 
