@@ -163,6 +163,11 @@ color: rgb(0, 0, 0);
     border-color: 1px solid black;  
 }
 
+.anchor{
+    color: black;
+    text-decoration: none;
+}
+
 .first-layer-item {
     margin-top: 48px;
 }
