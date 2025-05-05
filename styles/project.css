@@ -338,3 +338,20 @@ background-image: linear-gradient(#ff4b1e63 ,#ff4b1e41)
 .text-content{
     width: 941px;
 }
+
+.next-skills-react:hover {
+
+    background-image: linear-gradient(#4ed6f162 ,#0eb7e156 , #4ed6f165 ,#f0f0f03f );
+    color: ;
+    /* box-shadow: 10px 10px 19px rgba(135, 207, 235, 0.64) ; */
+
+}
+
+.next-skills-node:hover{
+    background-image: linear-gradient(#76ff26a8 , #393a394a );
+}
+
+.next-skills-mongo:hover{
+
+    background-image: linear-gradient(#5db33891 , #38851c6b);
+}
